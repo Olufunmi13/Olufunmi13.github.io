@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+		<script src="https://kit.fontawesome.com/993331db42.js" crossorigin="anonymous"></script>
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Poppins:wght@200&display=swap"
+			rel="stylesheet">
+			<title>Olufunke Oluwatuyi - Frontend Developer</title>
+	</head>
+	<body>
+		<header>
+		<!-- Navbar -->
+			<nav class="nav-link">
+				<ul id="sidemenu">
+					<li><a href=#>Home</a></li>
+					<li>
+						<a href=#About>About</a>
+					</li>
+					<li>
+						<a href=#Portfolio>Portfolio</a>
+					</li>
+					<li>
+						<a href="#Contact"><button class="btn">Contact</button></a>
+					</li>
+					<button class="fas" id="closemenu"onclick="closemenu()">
+        			<img src="pictures/close.png" width="30px">
+      			</button>
+					<!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+				</ul>
+				<div class="logo">
+					<img src="pictures/O.jpg" width="50px" alt="logo">
+				</div>
+				<button class="burger-menu" id="burger-menu"onclick="openmenu()">
+        			<img src="pictures/burger-menu.png" width="50px">
+      			</button>
+			</nav>
+		</header>
+		<!-- End of Navbar -->
+		<!--Hero Section-->
+		<section id="Home">
+			<div class="container">
+				<div class="hero">
+					<div class="hero-image">
+						<img src="./pictures/iMG_8916.jpg" sizes="(max-width: 479px) 100vw, (max-width:767px) 87vw, (max-width:991px) 90vw, 50vw" alt=image class="image-1">
+					</div>
+					<div class="text">
+						<h1> I'm a <br> <span class="word">Frontend Developer </span></h1>
+						<p> I make data-driven decisions for people and organizations by creating responsive online applications.
+							I create more than just a website; I build a device that will create your web presence and make it simple for potential customers to find your company.
+						</p>
+						<a href="C:\Users\O. O. RUFUS\Desktop\Funke\Resume\Olufunke_Oluwatuyi_Resume.pdf" download class="btn btn-second">Download CV</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About Section -->
+		<section id="About">
+			<div class="container">
+				<!-- <div class="row"> -->
+					<div class="grid-halves">
+						<div class="about">
+							<h1>About Me</h1>
+							<h3> Hello, I'm Oluwatuyi Olufunke</h3>
+							<p>I'm a freelance Data Analyst. <br>
+							A passionate data driven enthusiast, skilled in Python for Data Analysis, Spreadsheets, Excel, SQL, Microsoft PowerBI whose goal is to provide solutions to data related problems and aid decision making process.</p>
+						</div>
+						<div class="About-image">
+							<img src="./pictures/fotor_2023-1-20_0_17_9.jpg" height="400px" sizes="(max-width: 479px) 100vw, (max-width:767px) 88vw, (max-width:991px) 510vw, 44vw" alt="profile pix" class="img-2">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Portfolio -->
+		<section id="Portfolio" class="section">
+			<div class="container">
+				<div class="Project_wrapper">
+					<div class="header">
+						<div class="services-head">SKILLS
+						<h2>All your digital needs... covered.</h2></div>
+					</div>
+					<div class="grid card">
+						<div class="service">
+							<div class="service-image">
+								<img src="pictures/Skill-omg-1.jpg" width="379.67" height="379.67"sizes="(max-width: 479px) 100vw, (max-width:767px) 87vw, (max-width:991px) 90vw, 28vw" class="img-service">
+							</div>
+							<div class="service-text">
+								<h4 class="service-title">Web Development</h4>
+								<p class="text-service">I design user-friendly and responsive websites</p>
+							</div>
+						</div>
+						<div class="service">
+							<div class="service-image">
+								<img src="pictures/aaa-1100x550.jpg" width="379.67" height="379.67"sizes="(max-width: 479px) 100vw, (max-width:767px) 87vw, (max-width:991px) 90vw, 28vw" class="img-service">
+							</div>
+							<div class="service-text">
+								<h4 class="service-title">Technical Writing</h4>
+								<p class="text-service">I communicate technical terms in a logical and comprehensive manner.</p>
+							</div>
+						</div>
+						<div class="service">
+							<div class="service-image">
+								<img src="pictures/Skills-img-3.jpg" width="379.67" height="379.67"sizes="(max-width: 479px) 100vw, (max-width:767px) 87vw, (max-width:991px) 90vw, 28vw" class="img-service">
+							</div>
+							<div class="service-text">
+								<h4 class="service-title">Data Analytics</h4>
+								<p class="text-service">I analyse raw data to draw out insights to make data-driven decisions</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="portfolio-button">
+				<a href="/Portfolio" class="btn-3">Portfolio</a>
+				</div>
+			</div>
+		</section>
+		<!-- Contact ME -->
+		<section id="Contact">
+			<div class="container">
+				<div class="row">
+					<div class="contact-left">
+						<h1 class="sub-title">Contact Me</h1>
+						<p><i class="fa-solid fa-paper-plane"></i>oluwatuyiolufunke@gmail.com</p>
+						<div class="social-icons">
+							<a href="https://github.com/Olufunmi13" target="_blank"><i class="fa-brands fa-github"></i></a>
+							<a href="https://twitter.com/funmike_os" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+							<a href="https://www.linkedin.com/in/oluwatuyifunke/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+							<a href="https://medium.com/@oluwatuyiolufunke" target="_blank"><i class="fa-brands fa-medium"></i></a>
+						</div>
+					</div>
+					<div class="contact-right">
+						<form id="form" method="post" action="https://script.google.com/macros/s/AKfycbwHTsXZtfTVs7tSYKSKPQfAfbqFGr_LLZctc17d3NMM_oIZUI_Ls9udqFKEDGzhA_IWgw/exec">
+							<input type="text" name="Name" placeholder="Your Name"  required>
+							<input type="email" name="Email" placeholder="Your Email" required>
+							<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+							<button type="submit" class="btn btn2"> Submit</button>
+						</form>
+						<!-- <span id="msg"></span> -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<section id="footer">
+				<div class="foot-text">
+					<p>Developed by Oluwafunmike Oluwatuyi
+					<br />
+					&copy 2022
+					<br />
+					Theme inspired by <a href="https://www.marielalopez.com/" target=_blank>Maria Lopez.</a>
+					</p>
+				</div>
+			</section>
+		</footer>
+		
+	<!-- website scripts -->
+		<script>
+		
+			var sidemenu = document.getElementById("sidemenu");
+
+			function openmenu(){
+				sidemenu.style.right = "0";
+			}
+			function closemenu(){
+				sidemenu.style.right = "-200px";
+			}
+
+			window.addEventListener("load", function() {
+		  const form = document.getElementById("form");
+		  form.addEventListener("submit", function(e) {
+		    e.preventDefault();
+		    const data = new FormData(form);
+		    const action = e.target.action;
+		    fetch(action, {
+		      method: 'POST',
+		      body: data,
+		    })
+		    .then(() => {
+		      alert("Success!");
+		    })
+		  });
+		});  
+		</script>
+	</body>
+</html>
