@@ -546,7 +546,7 @@ img{
   nav ul {
     position: fixed;
     background-color: #faf9f7;
- 	display:flex;
+ 		display:flex;
     flex-direction: column;
     justify-content: center;
     top: 0;
@@ -597,12 +597,12 @@ nav ul .fas{
 /*Body*/
 body{
 	font-size: 1.5rem;
-	max-width: 100%;
+	max-width: 100vw;
 }
 .container{
 	max-width: 100vw;
-  padding-right: 2rem;
-  padding-left: 2rem;
+ /* padding-right: 2rem;
+  padding-left: 2rem;*/
  }
 
  /*Hero section*/
