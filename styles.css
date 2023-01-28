@@ -111,11 +111,32 @@ display:inline-flex;
 justify-content: flex-end;
 flex-direction: column;
 text-align: justify;
-align-items:center;
 padding-left:50px;
+flex-wrap: nowrap;
 }
-.text{
-	text-align: center;
+
+.greeting {
+	text-align: left;
+	color: rgba(241, 165, 157, 1);
+  font-family: "poppins";
+  font-size: clamp(14px, 5vw, 16px);
+  font-weight: 400;
+  clear: both;
+}
+.home-name {
+  color: #3b625f;
+  font-family:   font-family: "Mulish",sans-serif;
+  font-size: clamp(40px, 8vw, 80px);
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: left;
+}
+.intro {
+  color:#353935;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: left;
 }
 
 .btn-second{
@@ -151,10 +172,18 @@ cursor: pointer;
 }
 .about{
 	padding-right: 80px;
+	line-height: 1.5;
+
+}
+.about h1{
+	padding-bottom: 10px;
+	font-size: 43px;
+	color: #3b625f;
 }
 .About-image{
 	justify-self:center;
 }
+
 .img-2{
 	border-radius: 15px;
 	width: 100%;
@@ -181,7 +210,8 @@ cursor: pointer;
 	justify-content:center;
 	text-align:center;
 }
-.services-head{ font-family: 'Open Sans',sans-serif;
+.services-head{ 
+		font-family: 'Open Sans',sans-serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 3px;
@@ -278,6 +308,7 @@ cursor: pointer;
 .sub-title{
 	font-size:43px;
 	font-weight: 50px;
+	color: #3b625f;
 }
 .contact-right{
 	flex-basis: 60%;
@@ -290,7 +321,7 @@ cursor: pointer;
 	text-decoration:none;
 	font-size:25px;
 	margin-right:5px;
-	color: #000;
+	color: #3b625f;
 	display: inline-block;
 }
 .social-icons a:hover{
